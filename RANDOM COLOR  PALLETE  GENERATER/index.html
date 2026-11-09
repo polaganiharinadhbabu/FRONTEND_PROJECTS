@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Color Palette Generator</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="app">
+    <header class="header">
+      <div>
+        <p class="eyebrow">COLOR TOOL</p>
+        <h1>Palette Generator</h1>
+        <p class="subtitle">Create a palette, lock your favorite colors, and copy their codes.</p>
+      </div>
+
+      <button id="generate-button" class="generate-button">
+        Generate palette
+      </button>
+    </header>
+
+    <section id="palette" class="palette" aria-label="Color palette"></section>
+
+    <p id="status" class="status" aria-live="polite">
+      Click a color code to copy it. Use the lock button to keep a color.
+    </p>
+  </main>
+</body>
+</html>
